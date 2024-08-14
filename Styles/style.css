@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.ico {
+    padding-right: 20px;
+}
+.Escudo{
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid #000000; 
+    border-radius: 50%; 
+    background-color: #fff;
+    padding: 5px; 
+}
+
+.ico,
+.Escudo{
+    height: 200px;
+    width: auto;
+}
+
+.icotext {
+    font-size: 94px;
+}
+
+.imgtext {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+}
+.Text p{
+    width: 100vh;
+    color: #fff;
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.Text h1{
+    text-align: center;
+    font-size: 43px;
+}
+
+.Text{
+    background-color: #343838; 
+    padding: 30px;
+    border-radius: 5px;
+    border: 5px solid #00b4cc;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.Redes{
+    background-color: #fff;
+    border: 5px solid #000000;
+    padding: 30px;
+    width: 50vh;
+    color: #000000;
+    text-align: center;
+}
+.Redes h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.Redes li{
+    background-color: #343838;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.Redes li:hover{
+    background-color:#005f6b;
+}
+ul img{
+    width: 5vh;
+    margin-left: 5px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: inherit;
+}
+
+.Nosotros {
+    background-color: #343838;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.Nosotros h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff;
+}
+
+.Nosotros p {
+    font-size: 1.8em;
+    color: #666;
+    text-align: center;
+    color: #fff;
+}
+
+.Nosotros ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+}
+
+.Nosotros li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.Nosotros h3 {
+    font-size: 1.5em;
+    color: #222;
+    margin: 0 0 5px 0;
+}
+
+.Nosotros h4 {
+    font-size: 1.1em;
+    color: #888;
+    margin: 0;
+}
+
+.Conte{
+    display: inline-flex;
+}
+
+.Nosotros,
+.Redes{
+    margin: 15PX;
+}
+
+.imgtextCEL{
+    display: none;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header, footer {
+        padding: 10px;
+    }
+
+    .ico {
+        padding-right: 0px;
+    }
+    
+    .Escudo {
+        border-radius: 5px;
+        margin-left: 0px;
+        padding: 5px;
+        border: 2px solid #000000; 
+        border-radius: 50%; 
+        background-color: #fff;
+    }
+
+    .ico,
+    .Escudo {
+        height: 150px;
+        width: auto;
+    }
+
+    .icotext {
+        font-size: 64px;
+    }
+
+    .imgtext {
+        display: none;
+    }
+
+    .imgtextCEL {
+        display: block;
+        text-align: center;
+    }
+
+    .Text p {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .Text h1 {
+        font-size: 24px;
+    }
+
+    .Text {
+        padding: 20px;
+    }
+
+    .Redes {
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+    .Redes h2 {
+        font-size: 24px;
+    }
+
+    .Redes li {
+        font-size: 18px;
+    }
+
+    ul img {
+        width: 4vh;
+    }
+
+    .Nosotros {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .Nosotros h2 {
+        font-size: 1.8em;
+    }
+
+    .Nosotros p {
+        font-size: 1.2em;
+    }
+
+    .Nosotros li {
+        padding: 10px;
+    }
+
+    .Nosotros h3 {
+        font-size: 1.2em;
+    }
+
+    .Nosotros h4 {
+        font-size: 1em;
+    }
+
+    .Conte {
+        display: block;
+    }
+
+    .Nosotros, .Redes {
+        margin-bottom: 15px;
+    }
+    .Nosotros, .Redes, .Text{
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    body {
+        font-size: 14px;
+    }
+
+    header, footer {
+        padding: 10px;
+    }
+
+    .ico {
+        padding-right: 0px;
+    }
+    
+    .Escudo {
+        border-radius: 5px;
+        margin-left: 0px;
+        padding: 5px;
+        border: 2px solid #000000; 
+        border-radius: 50%; 
+        background-color: #fff;
+    }
+
+    .ico,
+    .Escudo {
+        height: 164px;
+        width: auto;
+        margin: 10px;
+    }
+
+    .icotext {
+        font-size: 64px;
+    }
+
+    .imgtextCEL {
+        display: none;
+        text-align: center;
+    }
+
+    .Text p {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .Text h1 {
+        font-size: 24px;
+    }
+
+    .Text {
+        padding: 20px;
+    }
+
+    .Redes {
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+    .Redes h2 {
+        font-size: 24px;
+    }
+
+    .Redes li {
+        font-size: 18px;
+    }
+
+    ul img {
+        width: 4vh;
+    }
+
+    .Nosotros {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .Nosotros h2 {
+        font-size: 1.8em;
+    }
+
+    .Nosotros p {
+        font-size: 1.2em;
+    }
+
+    .Nosotros li {
+        padding: 10px;
+    }
+
+    .Nosotros h3 {
+        font-size: 1.2em;
+    }
+
+    .Nosotros h4 {
+        font-size: 1em;
+    }
+
+    .Conte {
+        display: block;
+    }
+
+    .Nosotros, .Redes {
+        margin-bottom: 15px;
+    }
+    .Nosotros, .Redes, .Text{
+        box-shadow: none;
+    }
+
+}
