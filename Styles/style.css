@@ -180,31 +180,114 @@ a {
     margin: 15PX;
 }
 
-@media (max-width: 480px) {
-    header {
-        padding: auto;
+.imgtextCEL{
+    display: none;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header, footer {
+        padding: 10px;
     }
 
     .ico {
-        height: 100px;
-        width: auto;
+        padding-right: 0px;
+    }
+    
+    .Escudo {
+        border-radius: 5px;
+        margin-left: 0px;
+        padding: 5px;
+        border: 2px solid #000000; 
+        border-radius: 50%; 
+        background-color: #fff;
     }
 
-    .Escudo{
-        height: 100px;
+    .ico,
+    .Escudo {
+        height: 150px;
         width: auto;
     }
 
     .icotext {
-        font-size: 45px;
+        font-size: 64px;
     }
 
+    .imgtext {
+        display: none;
+    }
 
-    footer {
-        font-size: 12px;
-        width: 100%;
+    .imgtextCEL {
+        display: block;
+        text-align: center;
+    }
+
+    .Text p {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .Text h1 {
+        font-size: 24px;
+    }
+
+    .Text {
         padding: 20px;
-        margin-top: auto;
-        align-items: center;
+    }
+
+    .Redes {
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+    .Redes h2 {
+        font-size: 24px;
+    }
+
+    .Redes li {
+        font-size: 18px;
+    }
+
+    ul img {
+        width: 4vh;
+    }
+
+    .Nosotros {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .Nosotros h2 {
+        font-size: 1.8em;
+    }
+
+    .Nosotros p {
+        font-size: 1.2em;
+    }
+
+    .Nosotros li {
+        padding: 10px;
+    }
+
+    .Nosotros h3 {
+        font-size: 1.2em;
+    }
+
+    .Nosotros h4 {
+        font-size: 1em;
+    }
+
+    .Conte {
+        display: block;
+    }
+
+    .Nosotros, .Redes {
+        margin-bottom: 15px;
+    }
+    .Nosotros, .Redes, .Text{
+        box-shadow: none;
     }
 }
