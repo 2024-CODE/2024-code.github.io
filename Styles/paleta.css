@@ -1,0 +1,140 @@
+body {
+    background-color: #005f6b; /*color5*/
+   /*background: linear-gradient(to bottom, #005f6b, #003d42);*/
+
+}
+
+.icotext {
+    text-shadow: 5px 5px 5px #343838;
+}
+
+header {
+    background-color: #343838; /* color4 */
+}
+
+.login-form {
+    background-color: #343838; /* color4 */
+    border: #272525 solid 1px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    background-color: #d6d6d6; /* color2 */
+}
+
+.login-form input[type="submit"] {
+    background-color: #008c9e; /* color1 */
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #3ab9ca; /* color3 */
+}
+
+footer {
+    background-color: #343838; /* color4 */
+}
+
+.anuncios{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+.laboresPendientes{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.Panuncios{
+    background: #008c9e;
+    border: 2px solid #343838;
+}
+.PlaboresPendientes{
+    background: #008c9e;
+    border: 2px solid #343838;
+}
+
+.hacer a{
+    background-color: #3d6352;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    border: 5px solid #614d45;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.avi{
+    background-color: #343838;
+}
+
+.avi p{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 209, 4));
+    border: 2px solid #343838;
+}
+
+.traba{
+    background-color: #343838;
+}
+
+.traba p{
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 0, 0));
+    border: 2px solid #343838;
+}
+
+/* Fuentes letra*/
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+  
+
+@media screen and (max-width: 600px) {
+    /*.nav-links {
+        background-color: #008c9e;
+    }*/
+
+    nav {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    
+    .nav-links {
+        margin-top: 10px;
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        z-index: 1;
+        background-color: #444;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        border-radius: 0 0 8px 8px; 
+        width: auto;
+        justify-content: right;
+        justify-items: right;
+        justify-self: right;
+    }
+    
+    .nav-links a {
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none; 
+        transition: background-color 0.3s; 
+    }
+    
+    .nav-links a:hover {
+        background-color: #555;
+    }
+    
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
